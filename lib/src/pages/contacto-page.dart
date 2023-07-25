@@ -16,8 +16,8 @@ class ContactoPage extends StatelessWidget {
   child: Column(
     children: [
       Container(
-          width: 60,
-          height: 60,
+          width: 90,
+          height: 90,
           decoration: const BoxDecoration(
           color: Color.fromARGB(255, 222, 32, 95),
           shape: BoxShape.circle,
@@ -28,7 +28,7 @@ class ContactoPage extends StatelessWidget {
            style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
-            fontSize: 28,
+            fontSize: 32,
             ),
           ),
         ),
@@ -112,7 +112,7 @@ class ContactoPage extends StatelessWidget {
                 margin:
                     const EdgeInsets.symmetric(vertical: 10, horizontal: 30),
                 decoration: const BoxDecoration(
-                    color:Color.fromARGB(255, 147, 147, 147),
+                    color:Color.fromARGB(255, 199, 199, 199),
                     borderRadius: BorderRadius.all(Radius.circular(8))),
                 child: Padding(
                   padding: const EdgeInsets.all(15.0),
@@ -132,7 +132,7 @@ class ContactoPage extends StatelessWidget {
                           children: [
                             Icon(
                               IconData(0xf290, fontFamily: 'MaterialIcons'),
-                              color: Color.fromARGB(255, 147, 147, 147),
+                              color: Color.fromARGB(255, 0, 0, 0),
                             ),
                             Padding(
                               padding: EdgeInsets.only(left: 16.0),
@@ -149,13 +149,13 @@ class ContactoPage extends StatelessWidget {
                                 padding: EdgeInsets.only(left: 60.0),
                                 child: Icon(
                                   IconData(0xf48c, fontFamily: 'MaterialIcons'),
-                                  color: Color.fromARGB(255, 147, 147, 147),
+                                  color: Color.fromARGB(255, 0, 0, 0),
                                 )),
                             Padding(
                               padding: EdgeInsets.only(left: 20.0),
                               child: Icon(
                                 IconData(0xf1c6, fontFamily: 'MaterialIcons'),
-                                color: Color.fromARGB(255, 147, 147, 147),
+                                color: Color.fromARGB(255, 0, 0, 0),
                               ),
                             ),
                           ],
@@ -169,7 +169,7 @@ class ContactoPage extends StatelessWidget {
                             ClipRRect(
                               borderRadius: BorderRadius.circular(8.0),
                               child: const Image(
-                                image: AssetImage('assets/img/WhatsApp.png')
+                                image: AssetImage('assets/img/Whatsapp.png')
                               ),
                             ),
                             const Padding(
@@ -190,7 +190,7 @@ class ContactoPage extends StatelessWidget {
                             ClipRRect(
                               borderRadius: BorderRadius.circular(8.0),
                               child: const Image(
-                                image: AssetImage('assets/img/WhatsApp.png')
+                                image: AssetImage('assets/img/Whatsapp.png')
                               ),
                             ),
                             const Padding(
@@ -211,7 +211,7 @@ class ContactoPage extends StatelessWidget {
                             ClipRRect(
                               borderRadius: BorderRadius.circular(8.0),
                               child: const Image(
-                                image: AssetImage('assets/img/WhatsApp.png')
+                                image: AssetImage('assets/img/Whatsapp.png')
                               ),
                             ),
                             const Padding(
@@ -230,7 +230,7 @@ class ContactoPage extends StatelessWidget {
                         child: Row(
                           children: [
                             Image(
-                                image: AssetImage('assets/telegram.png')
+                                image: AssetImage('assets/img/telegram.png')
                               ),
                             Padding(
                               padding: EdgeInsets.only(left: 15.0), 
@@ -248,7 +248,7 @@ class ContactoPage extends StatelessWidget {
                         child: Row(
                           children: [
                             Image(
-                                image: AssetImage('assets/telegram.png')
+                                image: AssetImage('assets/img/telegram.png')
                               ),
                             Padding(
                               padding: EdgeInsets.only(left: 15.0), 
@@ -266,7 +266,7 @@ class ContactoPage extends StatelessWidget {
                         child: Row(
                           children: [
                             Image(
-                                image: AssetImage('assets/telegram.png')
+                                image: AssetImage('assets/img/telegram.png')
                               ),
                             Padding(
                               padding: EdgeInsets.only(left: 15.0), 
